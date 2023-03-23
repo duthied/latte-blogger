@@ -2,7 +2,7 @@
 
 ## Description
 
-A Toy project to use GitHub to manage the project (lightly), and use some GCP services that I've only used once or twice (serverless, managed API, datastore)
+A toy project to use GitHub to manage the project (lightly), and use some GCP services that I've only used once or twice (serverless, managed API, datastore)
 
 Ultimately I wanted to streamline the process of taking photos of latte art with my iPhone and have them viewable from a minimal website. 
 
