@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "app"
+version = "1.0.0"
+description = "espresso to the web"
+authors = ["Devlon <duthied@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+uvicorn = "^0.21.1"
+fastapi = "^0.95.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
