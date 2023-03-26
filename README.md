@@ -14,4 +14,4 @@ Option B:
 
 ## Backend
 
-run `uvicorn app.main:app` from _this_ the root directory to fire up the API
+run `uvicorn backend.backend.main:app` from _this_ the root directory to fire up the API
