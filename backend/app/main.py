@@ -1,5 +1,6 @@
 # import uvicorn
 from fastapi import FastAPI
+import uvicorn
 
 app = FastAPI(
         title="Shot2shot API",
@@ -10,3 +11,6 @@ app = FastAPI(
 @app.get("/")
 def index():
   return {"Hello": "World"}
+
+# def start():
+#   uvicorn.run("app.main:app", host="localhost", port=8888, reload=True)
